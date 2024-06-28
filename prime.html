@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Art Tec </title>
+    <link rel="shortcut icon" href="Imagens/Icones.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="bg-black">
+  <section>
+    <nav class="navbar navbar-expand-lg mx-auto p-2 mb-2 bg-secondary text-white ">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" >ArtVerso</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#carouselExampleFade">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Missão, Visão e Valores">Missão</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#Fundamentos">fundamentos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Links
+          </a>
+          <ul class="dropdown-menu bg-dark-subtle">
+            <li><a class="dropdown-item" href="#livros">Livros</a></li>
+            <li><a class="dropdown-item" href="#">Youtube</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Práticas diárias</a></li>
+            <li><a class="dropdown-item" href="#">Playlist de Músicas</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Aprendendo</a>
+        </li>
+      </ul>
+
+      
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalObjetivo" style="width: 150px;">
+        Sobre o site
+      </button>
+      <div class="modal fade text-black" id="modalObjetivo" tabindex="-1" aria-labelledby="modalObjetivoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalObjetivoLabel">Bem-vindo ao Mundo da Arte e do Desenho!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Este site foi criado para ser seu portal de entrada para o fascinante universo da arte e do desenho. Aqui, você encontrará uma ampla gama de recursos para aprimorar suas habilidades artísticas, explorar diferentes técnicas e se conectar com outros apaixonados por arte.</p>
+    
+              <h2>O que você encontrará:</h2>
+    
+              <ul>
+                <li><strong>Dicas e técnicas:</strong> Descubra dicas e truques profissionais para aprimorar suas habilidades de desenho e levar seus trabalhos para o próximo nível.</li>
+                <li><strong>Inspiração:</strong> Explore galerias de arte com obras de artistas de todo o mundo e encontre inspiração para seus próprios projetos.</li>
+              </ul>
+    
+              <p>Seja você um iniciante completo ou um artista experiente, este site tem algo para oferecer a todos. Comece sua jornada artística hoje mesmo!</p>
+
+              <p> Futuramente esse site sera adicionado uma gama de informações videos e recomendações ao site por enquanto ele se mantem em estado inicial e espero a colaboração de todos.</p>
+          </div>
+        </div>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script>
+        // Abrir a modal automaticamente quando a página carregar
+        $(document).ready(function() {
+          $('#modalObjetivo').modal('show');
+        });
+      </script>
+    </div>
+  </div>
+</nav>
+  </section>
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagens/1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagens/2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagens/3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagens/Artes não é apenas desnhar é criar o que imaginar.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section class="text-white">
+    <section class="mx-auto p-3">
+      <hr class="text-white bg-secondary">
+      <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" id="Missão, Visão e Valores">Missão, Visão e Valores:</a>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="Missão">Missão:</h4>
+        <p>Democratizar o acesso ao conhecimento artístico, empoderando pessoas de todas as idades e origens a explorar sua criatividade e desenvolver suas habilidades artísticas através de um ensino inspirador e acessível.</p>
+        <h4 id="Visão">Visão:</h4>
+        <p>Tornar-se a referência principal em ensino de arte online, reconhecido pela qualidade e inovação de seus cursos, pela comunidade vibrante de artistas e pela sua contribuição para a transformação individual e social através da arte.</p>
+        <h4 id="Valores">Valores:</h4>
+        <p>- Acessibilidade: Acreditamos que a arte deve ser acessível a todos, independentemente de renda, localização ou nível de experiência.
+          - Criatividade: Valorizamos a expressão artística individual e incentivamos a exploração de diferentes técnicas e estilos.
+          - Comunidade: Acreditamos no poder da comunidade para fomentar o aprendizado e a troca de experiências entre artistas.
+          - Inovação: Buscamos constantemente novas metodologias e tecnologias para aprimorar a experiência de aprendizado.
+          - Paixão: Somos apaixonados pela arte e pela sua capacidade de transformar vidas.</p>
+      </div>
+    </section>
+    <section>
+      <hr class="text-white">
+      <div class="mx-auto p-2 top-50 start-50" style="width: 400px;">
+        <h1 class="mx-auto p-2 text-white" id="livros">Sessão de Imagens:</h1>
+      </div>
+      <hr class="text-white">
+      <div class="hstack gap-3">
+        <div class="mx-auto p-2">
+          <img src="Imagens/11.png" class="d-block w-20" alt="...">
+        </div>
+        <div class="mx-auto p-2">
+          <img src="Imagens/22.png" class="d-block w-20" alt="...">
+        </div>
+        <div class="mx-auto p-2">
+          <img src="Imagens/33.png" class="d-block w-20" alt="...">
+        </div>
+      </div>
+      <div class="hstack gap-3">
+        <div class="mx-auto p-2">
+          <img src="Imagens/44.png" class="d-block w-20" alt="...">
+        </div>
+        <div class="mx-auto p-2">
+          <img src="Imagens/55.png" class="d-block w-20" alt="...">
+        </div>
+        <div class="mx-auto p-2">
+          <img src="Imagens/66.png" class="d-block w-20" alt="...">
+        </div>
+      </div>
+      <hr class="text-white">
+    </section>
+    <section >
+      <div class="mx-auto p-2 top-50 start-50" style="width: 500px;">
+      <h1 class="text-white" id="Fundamentos">Fundamentos do desenho:</h1>
+    </div>
+      
+      <div class="row g-0 p-3 mb-2 bg-secondary position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="Imagens/17.png" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 p-4 ps-md-0 text-white">
+    <h1 class="mt-0"> Linhas: </h1>
+    <hr>
+    <h5>O fundamento da linha te dá controle total das percepções e mensagens que você quer comunicar com seu desenho. Através da qualidade das linhas, você conseguirá passar sensações e percepções bem variadas com um alto nível de consciência daquilo que deseja com a sua arte. 
+    </h5>
+    <h5>
+      Muitos não se importam com o que um traço representa em um desenho, contudo as linhas que constituem um desenho fazem a maior diferença em sua formação, seja pela poluição visual ou pela má utilização.
+    </h5>
+  </div>
+</div>
+<hr>
+<div class="row g-0 p-3 mb-2 bg-secondary text-white position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="Imagens/fundamentos-do-desenho.jpg" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 p-4 ps-md-0">
+    <h1 class="mt-0">Formas:</h1>
+    <hr>
+    <h5>O Fundamento das Formas te permitirá desenhar qualquer coisa que você imaginar e expressar suas ideias com muita mais facilidade. Existe uma confusão acerca do Fundamento das Formas, pois grande parte dos desenhistas iniciantes desconhecem ou pulam esta etapa do processo que considero tão importante.
+    </h5>
+    <h5>
+      As formas tridimensionais para representar elementos e simplificar a realidade, para que possamos atribuir e distribuir mais facilmente os elementos presentes no desenho.
+    </h5>
+  </div>
+</div>
+<hr>
+<div class="row g-0 p-3 mb-2 bg-secondary text-white position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="Imagens/17-1.png" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 p-4 ps-md-0">
+    <h1 class="mt-0">Perspectiva:</h1>
+    <hr>
+    <h5>O fundamento da perspectiva é uma ferramenta poderosa que tem como papel principal intensificar esta ilusão de ótica, assim, quanto melhor a compreensão da perspectiva, melhor será a nossa arte e o poder de criar essa sensação de 3D. Ao utilizarmos a perspectiva corretamente poderemos adicionar aos nossos desenhos dimensões e profundidade, deixando mais realistas e coerentes. Mas para alcançarmos tal profissionalismo na perspectiva devemos utilizar de algumas técnicas como ponto de fuga e linha do horizonte que será explicado futuramente.
+    </h5>
+  </div>
+</div>
+<hr>
+<div class="row g-0 p-3 mb-2 bg-secondary text-white position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="Imagens/esfera-para-estudos-de-desenho.jpeg" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 p-4 ps-md-0">
+    <h1 class="mt-0">Luz e Sombra:</h1>
+    <hr>
+    <h5>A luz e a sombra têm uma função crucial que é definir o volume e a profundidade dos desenhos. Ou seja, a luz e a sombra ajudam a reforçar e a potencializar o efeito de tridimensionalidade dos desenhos.
+    </h5>
+    <h5>
+      Com os pontos de luz e sombra podemos destacar certos elementos e deixar outros menos visíveis assim adicionando mais detalhes e complexidade em nossas produções artísticas.
+    </h5>
+  </div>
+</div>
+<hr>
+<div class="row g-0 p-3 mb-2 bg-secondary text-white position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="Imagens/5-web.webp" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 p-4 ps-md-0">
+    <h1 class="mt-0">Anatomia:</h1>
+    <hr>
+    <h5>
+      A anatomia para desenho é voltada para a compreensão do estudo das formas e das estruturas que compõem as partes do corpo estudado, a partir dela podemos aprofundar a estrutura corporal e sua proporção em relação ao corpo dos personagens deixando mais harmônicos e coerentes.</h5>
+      <h5>
+      Tendo uma extrema importância para quem busca desenhar personagens de forma mais profissional, mas é claro que dependendo de seu estilo artístico você deve adaptar seus dotes artísticos.
+    </5>
+  </div>
+</div>
+<hr>
+<div class="row g-0 p-3 mb-2 bg-secondary text-white position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="Imagens/imagem-3-2.jpg" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 p-4 ps-md-0">
+    <h1 class="mt-0">Composição:</h1>
+    <hr>
+    <h5>
+      A composição na arte é organizar os elementos do desenho, as linhas, pontos, objetos e cores e os espaços vazios de maneira equilibrada. Por exemplo, o desenho deve ter um tamanho suficiente para o tamanho da folha, mas não deve ser muito grande para que não invada a margem do papel.
+    </h5>
+    <h5> 
+      uma maior técnica sobre o fundamento da composição poderemos distribuir os elementos em destaque e os elementos com menor importância no ambiente, proporcionando uma melhor visibilidade para seus ambientes e desenhos.
+    </h5>
+  </div>
+</div>
+<hr>
+<div class="row g-0 p-3 mb-2 bg-secondary text-white position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="Imagens/fotografia-pintura-paisagem-sol-sombra.webp" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 p-4 ps-md-0">
+    <h1 class="mt-0">Cores:</h1>
+    <h5>
+      A teoria das cores é um conceito que estuda as cores sob diferentes perspectivas, analisando desde a maneira como as tonalidades são interpretadas pelo cérebro e como influenciam o observador até as formas de aplicação e utilização em trabalhos de comunicação visual, por exemplo. 
+      </h5>
+      <h5>
+       A combinação das cores certas também desempenha um papel importante na comunicação visual. O contraste entre as cores pode direcionar o olhar do espectador para pontos específicos do design, destacando informações importantes ou chamadas para ação.
+    </h5>
+  </div>
+</div>
+    </section>
+    <section>
+      <hr class="text-white">
+      <div class="mx-auto p-2" style="width: 150px;">
+        <h1 class="mx-auto p-2 text-white" id="livros">Livros:</h1>
+      </div>
+      <hr class="text-white">
+      <div class="hstack gap-3">
+        <div class="card mx-auto p-2 mb-2 bg-secondary text-white" style="width: 18rem;">
+          <img src="Imagens/Capturar.PNG" class="card-p-3 mb-2 bg-secondary text-white" alt="...">
+          <div class="card-body">
+            <p class="card-text"> No livro Roube como um Artista poderemos desenvolver e aprender práticas para pensar em novas ideias e estimula nossa criatividade, sendo que um dos problemas dos artistas é a falta de inspiração.</p>
+          </div>
+        </div>
+        <div class="card mx-auto p-2 mb-2 bg-secondary text-white" style="width: 18rem;">
+          <img src="Imagens/51-VpJysReL._SX368_BO1,204,203,200_.jpg" class="card-p-3 mb-2 bg-secondary text-white" alt="...">
+          <div class="card-body">
+            <p class="card-text">Este livro informará sobre a formação e criação de arte em sua forma base demonstrando em corpos humanos, animais e como desenhar flores, inicialmente esse livro provendo diversas informações sobre arte.</p>
+          </div>
+        </div>
+        <div class="card mx-auto p-2 mb-2 bg-secondary text-white " style="width: 18rem;">
+          <img src="Imagens/o-livro-do-traco.png" class="card-p-3 mb-2 bg-secondary text-white" alt="...">
+          <div class="card-body">
+            <p class="card-text">Nesse livro será apresentado práticas e informações sobre como melhorar suas técnicas de traços nos seus desenhos, demonstrando os atributos das linhas e como deixar melhor destacado seu traço no desenho.
+            </p>
+          </div>
+        </div>
+        <div class="card mx-auto p-2 mb-2 bg-secondary text-white" style="width: 18rem;">
+          <img src="Imagens/bg1.png" class="card-p-3 mb-2 bg-secondary text-white" alt="...">
+          <div class="card-body">
+            <p class="card-text"> Este livro apresenta todo o processo de aprendizagem desde o início de um artista, demonstrando exercícios e como se profissionalizar, tudo disponível pelo artista Max Medina.</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+    <section class="text-white p-5">
+      <hr class="text-white">
+      <div class="mx-auto p-2 top-50 start-50" style="width: 450px;">
+        <h1 class="mx-auto p-2 text-white" id="livros">Verifiação de Acessos:</h1>
+      </div>
+      <h3> Os dados fornecidos pelos usuarios não serão utilizados de forma nenhuma, apenas utilizaremos apara vermos o redimento do site. </h3>
+      <hr class="text-white">
+        <form class="row g-3">
+  <div class="col-md-6">
+    <label for="validationServer01" class="form-label">Primeiro nome</label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+    <div class="valid-feedback">
+      Preencha com seu nome!
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServerUsername" class="form-label">Nome de usuário:</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend3">@</span>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <div id="validationServerUsernameFeedback" class="invalid-feedback">
+        Escolha um nome de usuário.
+      </div>
+    </div>
+  </div>
+  <label for="validationServer04" class="form-label">Email:</label>
+  <div class="form-floating">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Endereço de Email:</label>
+</div>
+  <div class="col-md-6">
+    <label for="validationServer03" class="form-label">Cidade:</label>
+    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+    <div id="validationServer03Feedback" class="invalid-feedback">
+      Forneça uma cidade válida.
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer04" class="form-label">Estado</label>
+    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+      <option selected disabled value="">Escolha...</option>
+      <option>São Paulo</option>
+      <option>Minas Gerais</option>
+      <option>Rio de Janeiro</option>
+      <option>Bahia</option>
+      <option>Paraná</option>
+      <option>Rio Grande do Sul</option>
+      <option>Pernambuco</option>
+      <option>Ceará</option>
+      <option>Pará</option>
+      <option>Santa Catarina</option>
+    </select>
+    <div id="validationServer04Feedback" class="invalid-feedback">
+      Selecione um estado válido.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Concordar com os termos e condições
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        Você deve concordar antes de enviar.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </div>
+</form>
+    </section>
+    <section>
+      <div class="modal fade" id="modalObjetivo" tabindex="-1" aria-labelledby="modalObjetivoLabel" aria-hidden="true" data-bs-show="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalObjetivoLabel">Bem-vindo ao Mundo da Arte e do Desenho!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este site foi criado para ser seu portal de entrada para o fascinante universo da arte e do desenho. Aqui, você encontrará uma ampla gama de recursos para aprimorar suas habilidades artísticas, explorar diferentes técnicas e se conectar com outros apaixonados por arte.</p>
+
+          <h2>O que você encontrará:</h2>
+
+          <ul>
+            <li><strong>Tutoriais detalhados:</strong> Aprenda a desenhar desde o básico até técnicas avançadas, com tutoriais passo a passo em vídeo e texto.</li>
+            <li><strong>Dicas e técnicas:</strong> Descubra dicas e truques profissionais para aprimorar suas habilidades de desenho e levar seus trabalhos para o próximo nível.</li>
+            <li><strong>Inspiração:</strong> Explore galerias de arte com obras de artistas de todo o mundo e encontre inspiração para seus próprios projetos.</li>
+            <li><strong>Comunidade vibrante:</strong> Junte-se à nossa comunidade online de artistas e participe de fóruns, grupos de discussão e eventos para compartilhar sua paixão pela arte.</li>
+            <li><strong>Loja de materiais:</strong> Encontre tudo o que precisa para começar a desenhar, desde lápis e pincéis até materiais especializados.</li>
+          </ul>
+
+          <p>Seja você um iniciante completo ou um artista experiente, este site tem algo para oferecer a todos. Comece sua jornada artística hoje mesmo!</p>
+
+          <h2>Clique no botão abaixo para explorar:</h2>
+
+          <a href="#" class="btn btn-primary">Explorar o site</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="font-weight-light bg-dark mt-5 ">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 p-2">
+        <h5 class="text-white">Sobre Nós:</h5>
+          <p class="text-white">Buscamos mostrar de maneira fácil e prática formas de aprender a se entregar no mundo artístico, futuramente iremos adicionar novos conteúdos para que nossos usuários possam aproveitar o máximo.</p>
+          <ul class="list-unstyled text-white">
+            <li><a href="#"><i class="fas fa-home"></i> Página Inicial</a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i> Sobre Nós</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i> Contato</a></li>
+          </ul>
+      </div>
+      <div class="col-md-4 p-2">
+        <h5 class="text-white">Redes Sociais</h5>
+          <ul class="list-unstyled text-white">
+            <li><a href="#"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com/artverse_caminho_artistico/"><i class="fab fa-instagram">@ArtVerso_Caminho_Artistico</i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+          </ul>
+      </div>
+      <div class="col">
+        <div class="col-md-4 p-2">
+          <h5 class="text-white">Contato</h5>
+          <p class="text-white">Seu endereço, telefone e e-mail.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3 p-2">
+    <div class="col-md-12 text-center text-white">
+      &copy; 2024 Art. Todos os direitos reservados.
+    </div>
+</section>
+</body>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
